@@ -1,0 +1,91 @@
+/**Contact Wrapper Styles**/
+.contact-content > p{
+  line-height: 30px;
+  margin: 30px 0;
+}
+.contact-content-poster{
+  position: relative;
+  margin-bottom: 25px;
+}
+.contact-content-poster div{
+  display: inline-block;
+}
+.contact-content-poster div + div{
+  padding-left: 25px;
+}
+.contact-content-poster .contact-content-description-logo{
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: #3F729B;
+}
+.contact-content-poster .contact-content-description-logo i{
+  font-size: 2.5rem;
+  color: white !important;
+}
+.contact-content-poster .contact-content-description-logo .fa-map-marker{
+  padding: 17px 26px;
+}
+.contact-content-poster .contact-content-description-logo .fa-phone{
+  padding: 17px 23px;
+}
+.contact-content-poster .contact-content-description-logo .fa-envelope{
+  padding: 17px 18px;
+}
+.contact-content-description-content .content-description-contact-label{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.contact-content-description-content a{
+  color: #444;
+}
+/**Form Layout**/
+.form-contact{
+  position: relative;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.form-contact input{
+  height: 3rem;
+}
+.form-contact input, .form-contact textarea{
+  width: 100%;
+  font-size: 1.15rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #3F729B;
+  outline: none;
+  color:#333;
+  transition: 0.25s all;
+  box-shadow: none;
+  box-sizing: content-box;
+  font-weight: 300;
+}
+.form-contact textarea{
+  height: 7rem;
+  overflow: auto;
+  padding-top: 5px;
+  resize: none;
+}
+.form-contact label{
+  position: absolute;
+  top: 12px;
+  left: 0;
+  transition: 0.25s all;
+}
+.form-contact label.active{
+  top: -13px;
+  font-size: 0.75rem;
+}
+.form-contact .btn-submit{
+  color: white;
+  padding: 15px 22px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  background-color: #3F729B;
+  outline: 0;
+  border: 0;
+  transition: 0.25s all;
+  cursor: pointer;
+}

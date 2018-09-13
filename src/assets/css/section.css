@@ -1,0 +1,64 @@
+/**Default Class Declaration **/
+section[class*='-wrapper'] {
+    margin-bottom: 250px;
+}
+[class*='-card-wrapper'] {
+    width: 1000px;
+    margin: auto;
+}
+[class*='-card-wrapper'] [class*='-card'] {
+    z-index: 100;
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: auto;
+    margin-top: -200px;
+    padding: 25px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+.theme-light [class*='-card-wrapper'] [class*='-card'],
+.theme-light .experience-mini-board,
+.theme-light .service-mini-board{
+   background-color: white !important;
+}
+.theme-dark [class*='-card-wrapper'] [class*='-card'],
+.theme-dark .experience-mini-board,
+.theme-dark .service-mini-board{
+  background-color: #444 !important;
+}
+
+section .section-title {
+    text-align: center;
+}
+@media only screen and (max-width: 992px) {
+  [class*='-card-wrapper']{
+    width: 600px;
+  }
+  .card-img-display{
+    margin-bottom: 50px;
+  }
+  .profile-social-media-wrapper{
+    width: 575px;
+  }
+  .profile-social-media-links li{
+    margin-right: 5px;
+  }
+
+}
+@media only screen and (max-width: 601px) {
+  [class*='-card-wrapper']{
+    width: 400px;
+  }
+  .profile-social-media-wrapper{
+    width: 360px;
+  }
+  .profile-social-media-links li{
+    margin-right: 5px;
+  }
+  .profile-social-media-links li a{
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+  }
+}

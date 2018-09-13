@@ -1,0 +1,38 @@
+/**Experience Wrapper**/
+.experience-wrapper{
+  margin-bottom: 15px !important;
+}
+.experience-mini-board, .experience-mini-board-date{
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 15px 0;
+  transition: 0.25s all;
+  cursor: pointer;
+}
+.experience-mini-board-date{
+  background-color: #3F729B;
+}
+.experience-mini-board{
+ margin-left: 25px;
+}
+.experience-mini-board-content{
+  padding: 15px;
+}
+.experience-mini-board-content-date > p{
+  padding: 10px;
+  color: white;
+}
+.experience-mini-board-content > .experience-position{
+  color: #3F729B;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.experience-mini-board-content > .experience-company{
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+.experience-mini-board-content > .experience-description{
+  line-height: 25px;
+  font-weight: 300;
+}

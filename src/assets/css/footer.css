@@ -1,0 +1,21 @@
+/****FOoter****/
+footer{
+  width: 100%;
+  height: 325px;
+  background-color:  #bdbdbd ;
+}
+.footer-content{
+  padding: 15px;
+}
+.footer-main-logo{
+  width: 200px;
+  margin: 2.5% auto;
+}
+.footer-main-logo img{
+  width: 100%;
+  height: 150px;
+}
+.profile-social-media-wrapper{
+      width: 520px;
+    margin: 5% auto;
+}

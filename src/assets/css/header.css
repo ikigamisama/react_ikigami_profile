@@ -1,0 +1,82 @@
+nav{
+  color: #fff;
+  background-color: #3F729B;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+nav.full-header{
+  width: 100%;
+}
+nav .header-wrapper{
+  min-height: 70px;
+  height: auto;
+  position: relative;
+}
+nav .header-wrapper .header-brand-logo{
+  position: absolute;
+  left: 50px;
+  display: inline-block;
+  color: #fff;
+}
+.header-brand-logo > img{
+  width: 75px;
+  height: 50px;
+}
+.header-wrapper > .header-sidebar-trigger{
+  cursor: pointer;
+}
+.header-wrapper > .header-sidebar-trigger > i{
+  color: black;
+  font-size: 1.5rem;
+  padding:23px 35px;
+}
+.header-brand-logo{
+  padding:10px;
+}
+@media only screen and (max-width: 992px) {
+  nav .header-wrapper .header-brand-logo{
+     left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .header-wrapper > .header-sidebar-trigger{
+    display: block;
+  }
+  .header-hide-on-mobile{
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  nav .header-wrapper{
+    min-height:50px;
+  }
+  .header-brand-logo, .header-sidebar-trigger{
+    padding:7px;
+  }
+
+}
+nav ul{
+  margin: 0;
+  list-style-type: none;
+}
+nav ul.right{
+  float: right;
+}
+nav ul li{
+  padding: 0;
+  transition: background-color .3s;
+  float: left;
+}
+nav ul li a{
+  font-size: 1rem;
+  display: block;
+  padding:23px 20px;
+  cursor: pointer;
+  transition: 0.25s all;
+  color: white !important;
+}
+nav ul li a:hover{
+  background-color: rgba(0,0,0,0.3);
+  text-decoration: none;
+}

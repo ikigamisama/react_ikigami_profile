@@ -1,0 +1,62 @@
+/**Skill Wrapper Styles**/
+.skill-content-description{
+  margin-bottom: 15px;
+}
+.skill-content-description > p{
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+.skill-progress{
+  position: relative;
+  margin-bottom: 1.2rem;
+}
+.skill-progress >  p{
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.skill-progress .skill-progress-wrap{
+  width: 100%;
+  height: 35px;
+  background-color: transparent;
+}
+.skill-progress .skill-progress-wrap .skill-progress{
+  height: 100%;
+  background-color: #3F729B;
+}
+.skill-progress .skill-progress-wrap .skill-progress p{
+  float: right;
+  padding: 7.5px;
+  font-weight: 300;
+  color: white !important;
+}
+.skill-marginb{
+  margin-bottom: 55px;
+}
+
+.skill-a-1{
+  width: 90%;
+}
+.skill-a-2{
+  width: 80%;
+}
+.skill-a-3{
+  width: 85%;
+}
+.skill-a-4{
+  width: 78%;
+}
+
+.skill-b-1{
+  width: 90%;
+}
+.skill-b-2{
+  width: 85%;
+}
+.skill-b-3{
+  width: 75%;
+}
+.skill-b-4{
+  width: 80%;
+}

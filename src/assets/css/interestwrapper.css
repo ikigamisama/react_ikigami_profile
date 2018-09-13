@@ -1,0 +1,29 @@
+/**Interest Wrapper Styles**/
+.interest-wrapper{
+  margin-bottom: 0 !important;
+}
+.interest-mini-board{
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  margin: 15px 0;
+}
+.interest-mini-board-content{
+  padding: 15px;
+}
+.interest-mini-board-logo-wrap{
+  width: 50px;
+  margin: 2.5% auto 10% auto;
+}
+.interest-mini-board-logo-wrap > i{
+  font-size: 3rem;
+  color: #3F729B;
+}
+.interest-mini-board-logo-description > p{
+  text-align: center;
+}
+.text-center-logo-interest{
+  text-align: center;
+  display: block;
+}
